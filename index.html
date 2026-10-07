@@ -6,6 +6,9 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>BiteBox</title>
       <link rel="stylesheet" href="css/style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+ID:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -19,20 +22,24 @@
                   <a href="about.html">About</a> |
                   <a href="menu.html">Menu</a> |
                   <a href="contact.html">Contact</a>
-                  <img src="assets/images/cart.png" alt="Cart Icon" width="30" height="30">
+                  <a href="cart.html">   
+                     <img src="assets/images/cart.png" alt="Cart Icon" width="30" height="30">
+                  </a>
+                  
             </nav>
       </header>
 
       <!-- start main section -->
       <main>
             <!-- Hero section start -->
-            <section>
+            <section id="home-hero">
 
-                  <h1>Delicious Food Delivered To Your Doorstep</h1>
+                  <h1>Delicious Food Delivered To Your <span>Doorstep</span></h1>
                   <p> Fresh ingredients, delicious recipes, and fast delivery— all in one place.</p>
-                  <a href="menu.html">Order Now</a>
-                  |
-                  <a href="menu.html">Explore Menu</a>
+                <div class="hero-buttons">
+                    <a class="order-btn"  href="menu.html">Order Now</a>
+                    <a class="menu-btn" href="menu.html">Explore Menu</a>
+                </div>
 
             </section>
 
